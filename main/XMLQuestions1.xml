@@ -1,0 +1,212 @@
+﻿
+<quiz>
+	
+	<question level = "easy">
+		<text>A collection of items stored in a contiguous memory location is called a?</text>
+		<option correct="true">Array</option>
+		<option>Linked List</option>
+		<option>Stack</option>
+		<option>Queue</option>
+	</question>
+	
+	<question level = "easy">
+		<text>Which data structure follows a Last In First Out (LIFO) principle?</text>
+		<option>Array</option>
+		<option correct="true">Stack</option>
+		<option>Queue</option>
+		<option>Linked List</option>
+	</question>
+	
+	<question level = "easy">
+		<text>What is the time complexity of searching an element in an unsorted array? </text>
+		<option>O(log n)</option>
+		<option correct="true">O(n)</option>
+		<option>O(1)</option>
+		<option>O(n^2)</option>
+	</question>
+	
+	<question level = "easy">
+		<text>A tree where each node can have at most two child nodes is called a?</text>
+		<option>N-array Tree</option>
+		<option>Linked List</option>
+		<option>Graph</option>
+		<option correct="true">Binary Tree</option>
+	</question>
+	
+	<question level = "hard">
+		<text>Linked lists are faster than arrays for random insertions and deletions. (True/False)?</text>
+		<option correct="true">True</option>
+		<option>False</option>
+	</question>
+	
+	<question level = "hard">
+		<text>Stacks are useful for implementing undo/redo functionality in programs. (True/False)?</text>
+		<option correct="true">True</option>
+		<option>False</option>
+	</question>
+
+	<question level = "hard">
+		<text>A queue is a good choice for representing a waiting line (e.g., at a store). (True/False)?</text>
+		<option>False</option>
+		<option correct="true">True</option>
+	</question>
+
+	<question level = "hard">
+		<text>Hash tables use keys to access elements directly, providing faster search than arrays. (True/False)?</text>
+		<option>False</option>
+		<option correct="true">True</option>
+	</question>
+
+	<question level = "medium">
+		<text>Trees are hierarchical data structures where nodes are connected with edges. (True/False)?</text>
+		<option>False</option>
+		<option correct="true">True</option>
+	</question>
+
+	<question level = "medium">
+		<text>Graphs can represent relationships between objects, like social networks. (True/False)?</text>
+		<option correct="true">True</option>
+		<option>False</option>
+	</question>
+	
+	<question level = "medium">
+		<text>A binary search tree ensures elements on the left are?</text>
+		<option correct="true">Less than</option>
+		<option>Equal to</option>
+		<option>Greater than</option>
+		<option>Unrelated to</option>
+	</question>
+	
+	<question level = "medium">
+		<text>Heaps are a specific type of tree used for?</text>
+		<option>Maintaining sorted data</option>
+		<option correct="true">Efficient priority queues</option>
+		<option>Metamorphism</option>
+		<option>Subduction</option>
+	</question>
+	
+	<question level = "medium">
+		<text>Which data structure efficiently checks if a string is a palindrome?</text>
+		<option>Map</option>
+		<option>Linked List</option>
+		<option>Array</option>
+		<option correct="true">Stack</option>
+	</question>
+	
+	<question>
+		<text>Time complexity refers to the number of steps an algorithm takes to execute. (True/False)?</text>
+		<option>False</option>
+		<option correct="true">True</option>
+	</question>
+
+	<question>
+		<text>Space complexity refers to the amount of memory an algorithm uses. (True/False)?</text>
+		<option>False</option>
+		<option correct="true">True</option>
+	</question>
+	
+	<question>
+	<text>Which of the following is NOT a valid operation on a queue?</text>
+	<option correct="true">Search for a specific element</option>
+	<option>Enqueue(add element)</option>
+	<option>Dequeue (remove element)</option>
+	<option>Peek (view front element)</option>
+</question>
+
+<question>
+	<text>What is the time complexity of adding an element to the beginning of a singly linked list?</text>
+	<option>O(log n)</option>
+	<option correct="true">O(1)</option>
+	<option>O(n^2)</option>
+	<option>O(n)</option>
+</question>
+
+<question>
+	<text>In a collision scenario within a hash table, what technique attempts to store overflowing elements in a separate data structure?</text>
+	<option>Open Addressing</option>
+	<option correct="true">Chaining</option>
+	<option>Linear Probing</option>
+	<option>All of the above</option>
+</question>
+
+<question>
+	<text>Which sorting algorithm has a time complexity of O(n log n) on average but might perform worse in specific cases?</text>
+	<option>Bubble Sort</option>
+	<option>Selection Sort</option>
+	<option>Lnsertion Sort</option>
+	<option correct="true">Merge Sort</option>
+</question>
+
+<question>
+	<text>A doubly linked list allows for traversal in both directions (forward and backward). (True/False)?</text>
+	<option correct="true">True</option>
+	<option>False</option>
+</question>
+
+<question>
+	<text>A circular queue utilizes a circular array to implement a queue. (True/False)?</text>
+	<option correct="true">True</option>
+	<option>False</option>
+</question>
+
+<question>
+	<text>A self-balancing binary search tree automatically rebalances to maintain efficient search and insertion operations. (True/False)?</text>
+	<option>False</option>
+	<option correct="true">True</option>
+</question>
+
+<question>
+	<text>A B-Tree is a type of tree data structure designed for efficient storage and retrieval of data on disk. (True/False)?</text>
+	<option>False</option>
+	<option correct="true">True</option>
+</question>
+
+<question>
+	<text>What is the best data structure to represent a maze for pathfinding algorithms?</text>
+	<option correct="true">Graph</option>
+	<option>Array</option>
+	<option>Stack</option>
+	<option>Linked List</option>
+</question>
+
+<question>
+	<text>A trie is a specialized tree used for efficient storage and retrieval of?</text>
+	<option>Dates</option>
+	<option correct="true">Strings</option>
+	<option>Floating-point numbers</option>
+	<option>Integers</option>
+</question>
+
+<question>
+	<text>What is the time complexity of finding the minimum element in a min-heap?</text>
+	<option>O(n)</option>
+	<option>O(n^2)</option>
+	<option>O(log n)</option>
+	<option correct="true">O(1)</option>
+</question>
+
+<question>
+	<text>Which data structure is most suitable for implementing a browser history with forward and backward navigation?</text>
+	<option>Queue</option>
+	<option>Linked List</option>
+	<option>Stack</option>
+	<option correct="true">Doubly Linked List</option>
+</question>
+	
+<question>
+	<text>What is the difference between a directed and undirected graph?</text>
+	<option>Directed graphs have cycles, undirected don't</option>
+	<option>Directed graphs only have numerical data, undirected can have any data type</option>
+	<option>Directed graphs are used for social networks, undirected for geographical maps</option>
+	<option correct="true">Directed graphs have edges with a direction, undirected don't.</option>
+</question>
+
+<question>
+	<text>When choosing a data structure for your program, consider factors like?</text>
+	<option correct="true">All of the above</option>
+	<option>Access patterns</option>
+	<option>Data type being stored</option>
+	<option>Space complexity requirements</option>
+</question>
+	
+</quiz>
